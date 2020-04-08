@@ -22,5 +22,14 @@ I will be using images from high frequency cameras to power a defect detection a
 ![2](images/charts2.png)
 
 ## Model Summary
+
+I will be using [segmentation-model](https://github.com/qubvel/segmentation_models#models-and-backbones) package to load pretrained weights.
+
+I will be using the basic Unet architecture with a resnet backbone, which has pre-trained weights for faster and better convergence.
+
+
+- Note: The resnet backbone here means that resnet model weights will be used as the encoder part (the first half) of the UNet, and from which the decoder part (the second half) will be programmatically built up. The idea is to enable use of a proven image classification architecture with pre-trained weights for transfer learning benefits.
+
+
 ## Predictions
 ![2](images/predictions.png)
