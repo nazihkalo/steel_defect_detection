@@ -4,7 +4,9 @@
 
 Here is a description of the competition/objective:
 -----
-**... images from high frequency cameras to power a defect detection algorithm. In this competition, you’ll help engineers improve the algorithm by ***localizing and classifying surface defects on a steel sheet***.**
+==> **In this competition, you’ll help engineers improve the algorithm by localizing and classifying surface defects on a steel sheet.**
+
+I will be using images from high frequency cameras to power a defect detection algorithm.
 
 
 ## Here are samples of the different kinds of defects (each combination from the training set is represented here)
