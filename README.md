@@ -14,3 +14,7 @@ Here is a description of the competition/objective:
 ![2](images/image4.png)
 ![2](images/image5.png)
 ![2](images/image6.png)
+
+## Here is the distribution of different classes within the dataset
+![2](images/charts1.png)
+![2](images/charts2.png)
