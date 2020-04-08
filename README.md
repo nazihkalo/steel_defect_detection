@@ -20,3 +20,7 @@ I will be using images from high frequency cameras to power a defect detection a
 ## Here is the distribution of different classes within the dataset
 ![2](images/charts1.png)
 ![2](images/charts2.png)
+
+## Model Summary
+## Predictions
+![2](images/predictions.png)
