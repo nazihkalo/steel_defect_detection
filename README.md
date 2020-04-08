@@ -4,7 +4,7 @@
 
 Here is a description of the competition/objective:
 -----
-*The production process of flat sheet steel is especially delicate. From heating and rolling, to drying and cutting, several machines touch flat steel by the time it’s ready to ship. Today, Severstal uses images from high frequency cameras to power a defect detection algorithm. In this competition, you’ll help engineers improve the algorithm by localizing and classifying surface defects on a steel sheet.*
+**... images from high frequency cameras to power a defect detection algorithm. In this competition, you’ll help engineers improve the algorithm by ***localizing and classifying surface defects on a steel sheet***.**
 
 
 ## Here are samples of the different kinds of defects (each combination from the training set is represented here)
