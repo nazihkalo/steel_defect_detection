@@ -31,7 +31,7 @@ I will be using the basic Unet architecture with a resnet backbone, which has pr
 ![res2unet](images/resnet2unet.png)
 
 So in essence, the encoder portion of the standard UNET is replaced with resnet34, and the decoder portion is appropriately inferred based on the resnet34 architecture (i.e. decoder/upsampling is adjusted so that output=input).
-
+[`HERE IS A GOOD EXPLANATION IF NEEDED`](https://towardsdatascience.com/u-nets-with-resnet-encoders-and-cross-connections-d8ba94125a2c)
 ## Predictions
 ![2](images/predictions.png)
 
