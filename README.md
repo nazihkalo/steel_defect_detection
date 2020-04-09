@@ -35,9 +35,13 @@ So in essence, the encoder portion of the standard UNET is replaced with resnet3
 ## Predictions
 ![2](images/predictions.png)
 
-
 ## Error Analysis
 
 UNET outputs masks using all floating point values between 0 and 1 inclusive. When we submit to Kaggle, we need to use only integer 0 and 1. Therefore we must convert mask floating points into integers using a threshold. If pixel>=THRESHOLD then pixel=1 else pixel=0. We will plot histograms for various thresholds below. We will consider all masks with less than 250 pixels as empty masks (where pixel_count = 4 * pixel count on 128x800).
 
 From the plots below, we see that UNET doesn't create more and/or larger masks for images with defects. UNET seems to equally create masks for all images whether there is a defect or not. 
+
+![thresh](images/thresholds2.png)
+![thresh](images/thresholds3.png)
+![thresh](images/thresholds4.png)
+![thresh](images/thresholds5.png)
