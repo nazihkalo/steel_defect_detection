@@ -1,8 +1,7 @@
 # Detecting Defects in Steel Manufacturing Line using Computer Vision
 
 ## This is my attempt at the Severstal Kaggle competition. Here is a description of the competition/objective:
------
-==> **In this competition, you’ll help engineers improve the algorithm by localizing and classifying surface defects on a steel sheet.**
+**In this competition, you’ll help engineers improve the algorithm by localizing and classifying surface defects on a steel sheet.**
 
 - We'll be using images from high frequency cameras to power a defect detection algorithm.
 - Each image may have no defects, a defect of a single class, or defects of multiple classes. For each image you must segment defects of each class (ClassId = [1, 2, 3, 4]).
