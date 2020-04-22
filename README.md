@@ -1,7 +1,6 @@
 # Detecting Defects in Steel Manufacturing Line using Computer Vision
 
-## This is my attempt at the Severstal Kaggle competition.
-Here is a description of the competition/objective:
+## This is my attempt at the Severstal Kaggle competition.Here is a description of the competition/objective:
 -----
 ==> **In this competition, you’ll help engineers improve the algorithm by localizing and classifying surface defects on a steel sheet.**
 
